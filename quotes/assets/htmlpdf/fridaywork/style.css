@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+.container-fluid{
+    background-color: rgba(128, 128, 128, 0.378);
+}
+
+
+
+.month {
+    padding: 11px 10px;
+    width: 100%;
+    background: darkblue;
+    text-align: center;
+    color: white;
+}
+
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.month .prev {
+    float: left;
+    padding-top: 10px;
+}
+
+.month .next {
+    float: right;
+    padding-top: 10px;
+}
+
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color: #ddd;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 13%;
+    color: #666;
+    text-align: center;
+}
+
+.days {
+    padding:10px 0px 10px 16px;
+    background: #eee;
+    margin: 0;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 14.5%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #777;
+}
+
+.days li .active {
+    padding: 5px;
+    background:darkblue;
+    color: white !important
+}
+
+.repl-class2:hover{
+    background-color:black;
+
+}
+i{
+    font-size: 1.5vw;
+}
+.col{
+    font-size: 1vw;
+    padding: 1vw;
+
+    
+}
+strong{
+    font-size: 2.5vw;
+}
+.date{
+    font-size: 17px;
+    
+}
+
+.sidenav {
+    height: 100vh;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 30px;
+    margin: 0px 70px;
+    border-radius: 25px;
+    
+}
+
+.vl{
+    border-left: 2px solid black;
+    height:30px;    
+
+}
+
+.fa-envelope{
+    color: chocolate;
+    font-size: 1.3vw;
+    padding-left: 10px;
+}
+
+ .fa-bell{
+     color: chocolate;
+        font-size: 1.3vw;
+        padding:0px 6px;
+ }
+ .icon1{
+    gap: 15px;
+ }
+
+
+.ri-search-line{
+    position:absolute;
+    bottom: 0.5vw;
+     left: 6.7vw;
+     color: #666;
+     font: 1.2vw;
+     z-index: 1;
+}
+
+.admin>strong{
+    font-size: 17px;
+}
+
+.admin{
+    margin-right: 20px;
+    padding-top:0px ;
+    font-size: 17px;
+    text-align: center;
+
+}
+.ri-user-fill{
+
+border-radius: 50%;
+padding: 5px;
+color: #7777775c;
+background-color: #a091915d;
+}
+::placeholder{
+    padding:0.5vw;
+    font-size: 1vw;
+    text-align: left;
+    text-align: center;
+
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    margin-top: 20px;
+    
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+    background-color:chocolate;
+}
+
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.sidenav>.close>a:hover{
+    background-color: white;
+    
+
+}
+
+
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+.loc{
+    font-size:10px;
+}
+
+
+
+/* Add media queries for smaller screens */
+@media screen and (max-width:720px) {
+
+    .weekdays li,
+    .days li {
+        width: 13.1%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+
+    .weekdays li,
+    .days li {
+        width: 12.5%;
+    }
+
+    .days li .active {
+        padding: 2px;
+    }
+}
+
+@media screen and (max-width: 290px) {
+
+    .weekdays li,
+    .days li {
+        width: 12.2%;
+    }
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:767px){
+    .container-fluid{
+        width:100vw;
+        height: auto;
+    }
+    ::placeholder{
+        font-size: 10px;
+        
+    }
+    .fa-bell{
+        font-size: 20px;
+        padding-right: 2px;
+    }
+    .fa-envelope{
+        font-size: 20px;
+    }
+
+        .admin>strong {
+            font-size: 12px;
+        }
+    .ri-search-line{
+        visibility: hidden;
+    }
+    .date{
+        font-size: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .icon1{
+        gap: 5px;
+    }
+}
+
+@media screen and (min-width=768px) and (max-width=1024px) {
+    .ri-search-line{
+        display: none;
+    }
+    .icon1{
+        gap: 10px;
+    }
+}
