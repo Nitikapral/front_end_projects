@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+ display: flex;
+ justify-content: center;
+ margin: 30px;
+ 
+}
+
+#main{
+    text-align: center;
+    border: 2px solid black;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: antiquewhite;
+
+    
+}
+button{
+    margin: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.para{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
