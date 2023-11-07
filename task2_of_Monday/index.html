@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+  <body>
+
+     <div id="box1">
+      <div
+        class="dot"
+        id="dot1"
+        onclick="showPopUp('p1','p2','p3','p4','p5')"
+      ></div>
+      <div class="popup" id="p1" style="display: none">
+        <p>Hye, Second PopUp <br />hello</p>
+
+        <div class="buttons">
+                    <button onclick="next('p2','p1')">Next</button>
+        </div>
+      </div>
+    </div>
+    <div id="box2">
+      <div
+        class="dot"
+        id="dot2"
+        onclick="showPopUp('p2','p1','p3','p4','p5')"
+      ></div>
+      <div class="popup" id="p2" style="display: none">
+        <p>Hye, Second PopUp <br />hello</p>
+
+        <div class="buttons">
+          <button onclick="back('p1','p2')">Prev</button>
+          <button onclick="next('p3','p2')">Next</button>
+        </div>
+      </div>
+    </div>
+    <div id="box3">
+      <div
+        class="dot"
+        id="dot3"
+        onclick="showPopUp('p3','p2','p1','p4','p5')"
+      ></div>
+      <div class="popup" id="p3" style="display: none">
+        <p>Hye, third PopUp <br />how are you?</p>
+        <div class="buttons">
+          <button onclick="back('p2','p3')">Prev</button>
+          <button onclick="next('p4','p3')">Next</button>
+        </div>
+      </div>
+    </div>
+    <div id="box4">
+      <div
+        class="dot"
+        id="dot4"
+        onclick="showPopUp('p4','p2','p3','p1','p5')"
+      ></div>
+      <div class="popup" id="p4" style="display: none">
+        <p>Hye, Four PopUp <br />how are you?</p>
+        <div class="buttons">
+          <button onclick="back('p3','p4')">Prev</button>
+          <button onclick="next('p5','p4')">Next</button>
+        </div>
+      </div>
+    </div>
+    <div id="box5">
+      <div
+        class="dot"
+        id="dot5"
+        onclick="showPopUp('p4','p2','p3','p1','p5')"
+      ></div>
+      <div class="popup" id="p5" style="display: none">
+        <p>Hye, Five PopUp <br />how are you?</p>
+        <div class="buttons">
+          <button onclick="back('p4','p5')">Prev</button>
+          <button onclick="next('p1','p5')">Next</button>
+        </div>
+      </div>
+    </div>
+    </div>
+    <script src="./assets/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,80 @@
+.slider-container {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    flex: 0 0 100%;
+}
+
+
+#img1 {
+    position: absolute;
+    top: 4em;
+    left: 10em;
+    
+}
+
+#img2 {
+    position: absolute;
+    top: 14em;
+    left: 27em;
+    
+}
+
+
+#img3 {
+    position: absolute;
+    top: 26em;
+    left: 10em;
+
+
+}
+
+#img4 {
+    position: absolute;
+    top: 26em;
+    left: 47em;
+}
+
+#img5 {
+    position: absolute;
+    right: 31em;
+    top: 3em;
+    
+}
+
+#img6 {
+    position: absolute;
+    right: 24em;
+    top: 21em;
+    
+}
+
+#img7 {
+    position: absolute;
+    top: 10em;
+    right: 14em;
+}
+
+#img8 {
+    position: absolute;
+    top: 23em;
+    right: 52em;
+
+}
+
+#img9 {
+    position: absolute;
+    top: 5em;
+    left: 39em;
+}
+
+
+

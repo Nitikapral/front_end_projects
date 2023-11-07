@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#box1{
+    /* border: 1px solid black; */
+    width: 15rem;
+    height: 10rem;
+    position: absolute;
+    top:20rem;
+    left:50rem;
+    
+}
+#box2{
+    /* border: 1px solid black; */
+    width: 15rem;
+    height: 10rem;
+    position: absolute;
+    top:35rem;
+    RIGHT:25rem;
+}
+#box3{
+    
+    width: 15rem;
+    height: 10rem;
+    position: absolute;
+    top:5rem;
+    right:25rem;
+}
+#box4{
+
+    width: 15rem;
+    height: 10rem;
+    position: absolute;
+    top:5rem;
+    left:25rem;
+}
+#box5{
+    
+    width: 15rem;
+    height: 10rem;
+    position: absolute;
+    top:35rem;
+    left:25rem;
+}
+
+.popup{
+     border: 1px solid black;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    background-color: rgb(53, 152, 238);
+    border-radius: 25px;
+    color: white;
+    
+  
+
+}
+button{
+    margin: 2rem 1rem 1rem 0rem;
+    width: 4rem;
+    height: 2rem;
+    border-radius: 10px;
+    border: none;
+
+
+}
+.dot{
+    width: 1rem;
+    height: 1rem;
+    border: 2px solid red;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    top: -2rem; 
+    left: -3rem;
+            animation: blink-animation 2s  infinite;
+            /* -webkit-animation: blink-animation 2s infinite; */
+        }
+    
+        @keyframes blink-animation {
+           
+         0%, 100%{
+            opacity: 0;
+         }
+         50%{
+            opacity: 1;
+         }
+        }

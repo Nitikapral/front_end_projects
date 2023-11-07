@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+  <body>
+    <button class="btn-modal" onclick="showModal()">Click Here</button>
+
+    <div class="overlay"></div>
+    <div class="content">
+      <div class="head">NEW WATER WELL LICENSE</div>
+      <form action="">
+        <div class="tile1">
+          <div>
+            <label for="" class="me-5">Village/Town</label>
+            <input type="text" class="me-5" />
+          </div>
+          <div>
+            <label for="" class="me-5">Province </label><input type="text" />
+          </div>
+        </div>
+        <div class="tile2">
+          <label for="" class="me-3"> Water Resources </label>
+          <input type="radio" id="y1" name="yes" value="30" />
+          <label for="y1">Yes</label>
+          <input type="radio" id="y2" name="yes" value="60" />
+          <label for="y2">No</label>
+        </div>
+
+        <div class="tile3">
+          <label for="" class="me-3"> Business License </label>
+          <input type="radio" id="y3" name="yes1" value="30" />
+          <label for="y1">Yes</label>
+          <input type="radio" id="y4" name="yes1" value="60" />
+          <label for="y2">No</label>
+        </div>
+
+        <div class="tile4">
+          <label for="" class="me-3"> Owner of the land </label>
+          <input type="radio" id="y5" name="yes2" value="30" />
+          <label for="y1">Yes</label>
+          <input type="radio" id="y6" name="yes2" value="60" />
+          <label for="y2">No</label>
+        </div>
+        <div class="tile5">
+          <label for="" class="me-3"> E-Governance </label>
+          <input type="radio" id="y7" name="yes3" value="30" />
+          <label for="y1">G2C</label>
+          <input type="radio" id="y8" name="yes3" value="60" />
+          <label for="y2">G2B</label>
+          <input type="radio" id="y9" name="yes3" value="60" />
+          <label for="y2">G2G</label>
+        </div>
+        <div class="mb-3">
+          <label for="" class="me-3">Fees</label>
+          <input type="text" />
+        </div>
+        <div class="mb-3">
+          <label for="" class="me-3">Working Days</label>
+          <input type="text" />
+        </div>
+        <div class="mb-3">
+          <label for="" class="me-3">Validity (in_months)</label>
+          <input type="text" />
+        </div>
+        <div class="mb-3">
+          <label for=""
+            >Approximate number of household served by this water supply?
+          </label>
+          <input type="text" />
+        </div>
+        <div class="buttons mb-3 text-end">
+          <button class="btns px-4">Save</button>
+          <button class="btn-secondary px-4">Save and Proceed</button>
+        </div>
+      </form>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/script.js"></script>
+  </body>
+</html>

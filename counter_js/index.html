@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Increment and Decrement Counter</title>
+    <style>
+      .container {
+        background-image: url("./assets/img/225692.jpg");
+        width: 100%;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+      }
+      .box {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: turquoise;
+        padding: 40px 100px;
+        border-radius: 25px;
+      }
+      button {
+        padding: 10px;
+        font-size: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <h1>Counter: <span id="counter">0</span></h1>
+        <button id="decrementButton">Decrement</button>
+        <button id="incrementButton">Increment</button>
+      </div>
+    </div>
+
+    <script>
+      const counterElement = document.getElementById("counter");
+      const incrementButton = document.getElementById("incrementButton");
+      const decrementButton = document.getElementById("decrementButton");
+
+      let count = 0;
+
+      incrementButton.addEventListener("click", function () {
+        if (count < 12) {
+          count++;
+          counterElement.textContent = count;
+        }
+      });
+
+      decrementButton.addEventListener("click", function () {
+        if (count > -12) {
+          count--;
+          counterElement.textContent = count;
+        }
+      });
+    </script>
+  </body>
+</html>

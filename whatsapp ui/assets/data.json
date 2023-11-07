@@ -1,0 +1,83 @@
+[
+  {
+    "id":"0",
+    "user": "Sonam",
+    "time": "10:46",
+    "message": "How are you",
+    "img":"assets/img/OIP3.jpeg"
+  },
+  {
+    "id":"1",
+    "user": "Rohit",
+    "time": "09:30",
+    "message": "Where are you Bro",
+    "unreadCount": 5,
+     "img": "assets/img/oip7.jpeg"
+
+},
+  {
+    "id":"2",
+    "user": "Sonakshi",
+    "time": "11:00",
+    "message": "What's Up",
+    "unreadCount": 2,
+    "img":"assets/img/OIP6.jpeg"
+  },
+  {
+    "id":"3",
+    "user": "Sona",
+    "time": "11:00",
+    "message": "What's Up",
+    "unreadCount": 2,
+    "img":"assets/img/OIP3.jpeg"
+
+  },
+  {
+    "id":"4",
+    "user": "Mona",
+    "time": "01:00",
+    "message": "What are you doing",
+    "img":"assets/img/OIP6.jpeg"
+
+  },
+  {
+    "id":"5",
+    "user": "Sakshi",
+    "time": "12:00",
+    "message": "What's Up",
+    "unreadCount":6 ,
+    "img":"assets/img/OIP6.jpeg"
+
+  },
+  {
+    "id":"6",
+    "user": "Somu",
+    "time": "11:00",
+    "message": "What's Up",
+    "img":"assets/img/OIP3.jpeg"
+
+  },
+  {
+    "id":"7",
+    "user": "Parshant",
+    "time": "05:00",
+    "message": "hye How are you",
+    "img": "assets/img/OIP10.jpeg"
+
+  },
+  {
+    "id":"8",
+    "user": "Rohit",
+    "time": "03:00",
+    "message": "hye",
+    "img": "assets/img/OIP9.jpeg"
+  },
+  {
+    "id":"9",
+    "user": "Romal",
+    "time": "03:00",
+    "message": "hye",
+    "img": "assets/img/OIP9.jpeg"
+  }
+]
+
